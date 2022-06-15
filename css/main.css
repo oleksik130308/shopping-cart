@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background: #9CBA7F;
+}
+
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background: #404040;
+}
+
+    header div h1
+    {
+        color: #9CBA7F;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    header div ul
+    {
+        list-style-type: none;
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+
+        header div ul li
+        {
+            display: inline;
+            margin-left: 20px;
+        }
+
+            header div ul li a
+            {
+                color: #EDEDED;
+                text-decoration: none;
+            }
+
+                header div ul li a:hover
+                {
+                    color: #9CBA7F;
+                    text-decoration: underline;
+                }
+    
+    div.all
+    {
+        margin: 0 auto;
+        width: 65%;
+        height: auto;
+    }
+    div.mainContent
+    {
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+        section.card
+        {
+            padding: 20px;
+            background: #EDEDED;
+            border-radius: 10px;
+            margin: 50px;
+        }
+
+            h1.main
+            {
+                color: #404040;
+            }
+
+            div.flex-container
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                min-height: 150px;
+            }
+            
+                form
+                {
+                    text-align: left;
+                }
+
+                    form input, form select
+                    {
+                        background: #FFFFFF;
+                        border: none;
+                        padding: 10px;
+                        border-radius: 5px;
+                    }
+
+                    form select
+                    {
+                        margin-right: 3px;
+                    }
+
+                    form input[type=submit]
+                    {
+                        background: #404040;
+                        color: #9CBA7F;
+                        width: auto;
+                    }
+
+                        form input[type=submit]:hover
+                        {
+                            color: #FFFFFF;
+                            cursor: pointer;
+                        }
+
+                div.flex-container div
+                {
+                    padding: 20px;
+                }
