@@ -10,7 +10,7 @@
 <body>
     
     <?php
-        include("includes/header.php");
+       
     ?>
 
     <div class="all">
@@ -52,6 +52,7 @@
                                 echo "<div>";
                                 $result = mysqli_query($conn, $sql);
                                 while($row = mysqli_fetch_assoc($result)) {
+                                    echo "<p>".$row["addressID"]."</p>";
                                     echo "<p>".$row["addressTwo"]."</p>";
                                     echo "<p>".$row["town"]."</p>";
                                     echo "<p>".$row["postCode"]."</p>";
@@ -82,6 +83,7 @@
                                     WHERE firstName LIKE '%$firstName%'";
                             $result = mysqli_query($conn, $sql);
                             while($row = mysqli_fetch_assoc($result)) {
+                                
                                 echo "<p>".$row["firstName"]."</p>";
                                 echo "<p>".$row["secondName"]."</p>";
                                 echo "<p>".$row["surname"]."</p>";

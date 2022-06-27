@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        include("includes/header.php");
+        
 ?>
     <div class="flex-container">
     <form action="scripts/doInsert.php" method="get">

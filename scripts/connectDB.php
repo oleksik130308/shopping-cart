@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $db = "shopping_cart";
+    $db = "world_wood2";
 
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $db);

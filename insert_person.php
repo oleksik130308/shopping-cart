@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        include("includes/header.php");
+       
     
 
     include("scripts/connectDB.php");
